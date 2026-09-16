@@ -1,0 +1,16 @@
+void mang::chen(int k){
+	int i;
+	int m;
+	soluong++;
+	for(i=soluong;i>k;i--){
+		a[i]=a[i-1];
+	}
+	cout<<"nhap gia tri muon chen: ";
+	cin>>m;
+	a[k]=m;
+	cout<<"\nmang sau chen:\n";
+	for(i=0;i<soluong;i++){
+		cout<<a[i];
+		cout<<"\t";
+	}
+}
