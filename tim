@@ -1,0 +1,8 @@
+void M1C::timkiem(int x){
+	int i;
+	for(i=0; i<spt; i++){
+		if(a[i]==x){
+			cout<<"\nVi tri xuat hien:a["<<i<<"]";
+		}
+	}
+}
