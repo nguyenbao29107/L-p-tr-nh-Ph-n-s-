@@ -1,0 +1,8 @@
+void mang::tach(mang &b, int j){
+int i,m=0;
+b.soluong=soluong-j;
+cout<<"So luong cua mang thu 2 se la: "< for(i=j;i b.a[m]=a[i];
+m++;
+}
+for(i=0;i cout<<"b["< }
+}
