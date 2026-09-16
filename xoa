@@ -1,0 +1,12 @@
+void M1C::xoak(int k){
+	int i;
+	for(i=k; i<spt; i++){
+		a[i]=a[i+1];
+	}
+	spt--;
+	cout<<"\nMang sau khi xoa: ";
+	for(i=0; i<spt; i++){
+		cout<<a[i];
+		cout<<"\t";
+	}
+}
